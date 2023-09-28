@@ -8,14 +8,18 @@ To reproduce the problem, follow these steps:
 
 1. Clone the repository.
 2. Create a venv in the root directory of this project by
+
    #+begin_src shell
      python -m venv venv
    #+end_src
+
 3. Restart Emacs.
 4. Use =C-x p e= or =C-x p p e= to start an Eshell buffer, and execute
+
    #+begin_src shell
      which python
    #+end_src
+
    this would say the python executable is in the some system =bin=
    directory.
 5. Do =C-x p e= or =C-x p p e= again, and execute the same command.
