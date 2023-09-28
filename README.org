@@ -1,7 +1,7 @@
 * Demo for the problem
 
-Normally, there is no need for a `pyrightconfig.json` file to exist.
-We only need a venv and `.git` to let Emacs' version control know the
+Normally, there is no need for a =pyrightconfig.json= file to exist.
+We only need a venv and =.git= to let Emacs' version control know the
 root directory of the project.
 
 To reproduce the problem, follow these steps:
@@ -12,11 +12,12 @@ To reproduce the problem, follow these steps:
      python -m venv venv
    #+end_src
 3. Restart Emacs.
-4. Use `C-x p e` or `C-x p p e` to start an Eshell buffer, and execute
+4. Use =C-x p e= or =C-x p p e= to start an Eshell buffer, and execute
    #+begin_src shell
      which python
    #+end_src
-   this would say the python executable is in the some system `bin` directory.
-5. Do `C-x p e` or `C-x p p e` again, and execute the same command.
-   Eshell would say python is located at the `bin` directory in the
+   this would say the python executable is in the some system =bin=
+   directory.
+5. Do =C-x p e= or =C-x p p e= again, and execute the same command.
+   Eshell would say python is located at the =bin= directory in the
    venv.
