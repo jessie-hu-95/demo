@@ -1,2 +1,0 @@
-# demo
-Python demo project
